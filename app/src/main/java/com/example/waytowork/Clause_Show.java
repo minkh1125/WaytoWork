@@ -11,14 +11,12 @@ public class Clause_Show extends AppCompatActivity {
 
     Button b;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.clause_show);
 
-        b = (Button) findViewById(R.id.button);
+        b = findViewById(R.id.button);
 
         b.setOnClickListener(new View.OnClickListener() {
             @Override
