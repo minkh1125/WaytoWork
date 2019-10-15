@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#eeeff1"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#4579df"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ib_Back"
+            android:layout_width="84dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:background="#4579df"
+            android:gravity="center_horizontal"
+            app:srcCompat="@drawable/x"  />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:text="가는김에" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <CheckBox
+            android:id="@+id/ch_All"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:textSize="22sp"
+            android:textColor="#000000"
+            android:text="전체 동의합니다"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <CheckBox
+            android:id="@+id/ch_First"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:textSize="17sp"
+            android:textColor="#000000"
+            android:text="개인정보 수집 이용을 위한 동의"/>
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:textSize="10sp"
+            android:textColor="#faaa1f"
+            android:text="(필수)"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:id="@+id/ed_First"
+            android:layout_width="330dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/corners_tos"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:minLines="1"
+            android:maxLines="100"
+            android:text=" 내 프로필, 구입한 아이템,  그  외 사용자가
+설정한 모든정보가 사라지고 복구가 불가능합
+니다. "
+            android:focusableInTouchMode="false"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <CheckBox
+            android:id="@+id/ch_Second"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:textSize="17sp"
+            android:textColor="#000000"
+            android:text="가입 이용약관"/>
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:textSize="10sp"
+            android:textColor="#faaa1f"
+            android:text="(필수)"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:id="@+id/ed_Second"
+            android:layout_width="330dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/corners_tos"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:minLines="1"
+            android:maxLines="100"
+            android:text=" 내 프로필, 구입한 아이템,  그  외 사용자가
+설정한 모든정보가 사라지고 복구가 불가능합
+니다. "
+            android:focusableInTouchMode="false"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <CheckBox
+            android:id="@+id/ch_Third"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:textSize="17sp"
+            android:textColor="#000000"
+            android:text="가입 이용약관2"/>
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:textSize="10sp"
+            android:textColor="#faaa1f"
+            android:text="(필수)"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:id="@+id/ed_Third"
+            android:layout_width="330dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/corners_tos"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:minLines="1"
+            android:maxLines="100"
+            android:text=" 내 프로필, 구입한 아이템,  그  외 사용자가
+설정한 모든정보가 사라지고 복구가 불가능합
+니다. "
+            android:focusableInTouchMode="false"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_Ok"
+        android:layout_width="349dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#4579df"
+        android:text="확인"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/bt_Cancel"
+        android:layout_width="349dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#4579df"
+        android:text="취소"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

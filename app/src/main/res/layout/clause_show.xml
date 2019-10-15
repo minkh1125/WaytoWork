@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeff1"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#4579df"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="150dp"
+            android:layout_gravity="center"
+            android:textSize="26.2sp"
+            android:textColor="#ffffff"
+            android:text="이용약관" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="37dp"
+        android:textColor="#000000"
+        android:text="개인정보수집 이용을 위한 동의" />
+
+    <TextView
+        android:id="@+id/item_detail"
+        android:layout_width="340dp"
+        android:layout_height="430dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/corners_wh"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:minLines="1"
+        android:maxLines="100"
+        android:scrollbars="vertical"
+        android:text="    내 프로필, 구입한 아이템,  그  외 사용자가
+설정한 모든정보가 사라지고 복구가 불가능합
+니다. "
+        android:focusableInTouchMode="false"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#4579df"
+        android:textColor="#ffffff"
+        android:text="확인" />
+
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    android:background="#4579df">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="51dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:background="#4579df"
+        app:srcCompat="@drawable/b123" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="26.2sp"
+        android:textColor="#ffffff"
+        android:text="설정" />
+
+</LinearLayout>
+
+
+<Switch
+    android:layout_width="match_parent"
+    android:layout_height="76dp"
+    android:background="@drawable/edge_gr_bottom"
+    android:gravity="center_vertical"
+    android:paddingLeft="33dp"
+    android:text="푸쉬알림"
+    android:textSize="21.3sp" />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.7dp"
+        android:background="#dedede"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="590dp"
+        android:background="#eeeff1"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

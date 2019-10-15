@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/corners_pop"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    >
+
+    <!--&lt;!&ndash; 타이틀바 &ndash;&gt;-->
+    <!--<LinearLayout-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+    <!--<TextView-->
+    <!--android:text="Notice"-->
+    <!--android:textSize="20sp"-->
+    <!--android:textColor="#fff"-->
+    <!--android:gravity="center"-->
+    <!--android:background="#ff7a00"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="53dp" />-->
+    <!--</LinearLayout>-->
+    <!--&lt;!&ndash; //end 타이틀바 &ndash;&gt;-->
+
+    <!-- Notice -->
+    <LinearLayout
+        android:padding="24dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+
+        <TextView
+            android:id="@+id/text"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:alpha="0.87"
+            android:gravity="center"
+            android:layout_marginBottom="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="물품 등록시 @P가 필요합니다."/>
+
+        <TextView
+            android:id="@+id/text1"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:alpha="0.87"
+            android:gravity="center"
+            android:layout_marginBottom="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(외부 베송시 @P가 필요)"/>
+    </LinearLayout>
+    <!-- Notice -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.7dp"
+        android:background="#d3d3d3"/>
+    <!-- 닫기 버튼 -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button"
+            android:text="OK"
+            android:textSize="20sp"
+            android:textColor="#4579df"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            />
+    </LinearLayout>
+    <!--// 닫기 버튼 -->
+</LinearLayout>
+
+

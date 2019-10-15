@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+<solid android:color="#000" />
+
+<corners
+    android:bottomLeftRadius="3.3dp"
+    android:bottomRightRadius="3.3dp"
+    android:topLeftRadius="3.3dp"
+    android:topRightRadius="3.3dp" />
+</shape>
+    <!--
+        solid : 버튼의 내부 및 테두리 내부 설정
+        stroke : 테두리 설정-->
